@@ -4017,6 +4017,10 @@
       <field type="uint8_t" name="wp_num">current waypoint number</field>
       <field type="uint16_t" name="wp_distance" units="m">distance to target (meters)</field>
     </message>
+    <message id="236" name="AGROFLY_DATA">
+      <description>AgroFly ground filtering and new features in future</description>
+      <field type="float" name="current_height" units="cm">Current vehicle height above ground created by the ground filter</field>
+    </message>
     <message id="241" name="VIBRATION">
       <description>Vibration levels and accelerometer clipping</description>
       <field type="uint64_t" name="time_usec" units="us">Timestamp (micros since boot or Unix epoch)</field>
